@@ -1,0 +1,44 @@
+body{
+    background-color: blueviolet;
+    font-family: cursive;
+}
+.row{
+    width: 100%;
+}
+.timer{
+    color: cornflowerblue;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid white;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    color: wheat;
+    text-align: center;
+
+}
+.btn:hover {
+background-color: teal;
+}
+.counter{
+    color: thistle;
+    transition:ease;
+}
+.counter:hover{
+    background-color: violet;
+
+}
+.show_message{
+    display: block;
+    padding: 1rem 0;
+    color: thistle;
+    border: thistle;
+    border-radius: 0.5rem;
+    background-color: thistle;
+    transition: ease;
+}
